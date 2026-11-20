@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin Login</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body>
+<div class="login card"><h2>Admin login</h2><div class="notice">Prototype only. This demo login is not secure authentication. Production needs server-side sessions.</div>
+<label for="u">Email or username</label><input id="u" autocomplete="username"><div class="err" id="eu"></div>
+<label for="p">Password</label><div class="row" style="flex-wrap:nowrap"><input id="p" type="password" autocomplete="current-password"><button class="btn" id="sh" type="button">Show</button></div><div class="err" id="ep"></div>
+<label style="display:flex;gap:8px;align-items:center"><input type="checkbox" style="width:auto" id="rm"> Remember me</label>
+<button class="btn pri" id="go" style="width:100%;margin-top:14px">Sign in</button><div class="err" id="eg" style="margin-top:8px"></div><p class="mut" style="margin-top:10px"><a href="index.html">Back to homepage</a></p></div>
+<script src="js/auth.js"></script></body></html>
